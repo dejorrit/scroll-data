@@ -18,7 +18,7 @@ Then set your own scrollListener.
         console.log(ScrollData());
     });
     
-In case you're only interested in the vertical data, just pass in `vertical` as a parameter. This goes for `horizontal` as well off course.
+In case you're only interested in the vertical or horizontal data, just pass in `vertical` or `horizontal` as a parameter.
 
     window.addEventListener('scroll', function () {
         console.log(ScrollData('vertical'));
