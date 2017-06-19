@@ -29,10 +29,12 @@ In case you're only interested in the vertical data, just pass in `vertical` as 
     {
         horizontal: {
             direction: "up",
+            position: 100
             speed: 12
         },
         vertical: {
             direction: "right",
+            position: 80,
             speed: 64
         },
     }
