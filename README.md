@@ -10,21 +10,23 @@ An npm module to help getting the vertical and horizontal scroll direction
 
 Require the module first.
 
-    var ScrollData = require('window-scroll-data');
+    const ScrollData = require('window-scroll-data');
 
 Then set your own scrollListener.
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', () => {
         console.log(ScrollData());
     });
     
 In case you're only interested in the vertical or horizontal data, just pass in `vertical` or `horizontal` as a parameter.
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', () => {
         console.log(ScrollData('vertical'));
     });
 
 ## Example output
+
+The direction property in the object can contain `up`, `down` and `unchanged`.
 
     {
         horizontal: {
@@ -38,5 +40,4 @@ In case you're only interested in the vertical or horizontal data, just pass in 
             speed: 64
         },
     }
-    
-The direction property in the object can contain `up`, `down` and `unchanged`. 
+     
