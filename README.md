@@ -36,7 +36,7 @@ window.addEventListener('scroll', () => {
 
 ## Example output
 
-The direction property in the object can contain `up`, `down` and `unchanged`.
+The direction property in the object can contain `up`, `down`, `left`, `right` and `unchanged`.
 
 ```json
 {
