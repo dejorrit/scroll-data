@@ -1,6 +1,6 @@
 {
   "name": "scroll-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the current scroll direction and speed. Both vertically and horizontally",
   "main": "dist/index.min.js",
   "scripts": {
