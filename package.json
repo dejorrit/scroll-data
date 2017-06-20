@@ -1,6 +1,5 @@
 {
   "name": "scroll-data",
-  "url": "https://github.com/dejorrit/scroll-data",
   "version": "0.0.7",
   "description": "Get the current scroll direction, position and speed. Both vertically and horizontally.",
   "main": "dist/index.min.js",
@@ -8,8 +7,16 @@
     "watch": "babel src --presets babel-preset-es2015 --out-dir dist -d --watch",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist; minify dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejorrit/scroll-data.git"
+  },
   "author": "Jorrit Tinholt",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejorrit/scroll-data/issues"
+  },
+  "homepage": "https://github.com/dejorrit/scroll-data#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
