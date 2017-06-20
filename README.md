@@ -1,6 +1,6 @@
 # Scroll Data
 
-An npm module to help getting the vertical and horizontal scroll direction
+Get the current scroll direction, position and speed. Both vertically and horizontally.
 
 ## Installation
 

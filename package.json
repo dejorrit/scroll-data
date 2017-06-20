@@ -1,7 +1,7 @@
 {
   "name": "scroll-data",
   "version": "0.0.3",
-  "description": "Get the current scroll direction and speed. Both vertically and horizontally",
+  "description": "Get the current scroll direction, position and speed. Both vertically and horizontally.",
   "main": "dist/index.min.js",
   "scripts": {
     "watch": "babel src --presets babel-preset-es2015 --out-dir dist -d --watch",
