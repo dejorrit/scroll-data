@@ -15,7 +15,7 @@ npm install --save scroll-data
 Require the module first.
 
 ```javascript
-const ScrollData = require('window-scroll-data');
+const ScrollData = require('scroll-data');
 ```
 
 Then set your own scrollListener.
