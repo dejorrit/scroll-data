@@ -40,12 +40,12 @@ The direction property in the object can contain `up`, `down` and `unchanged`.
 
 ```json
 {
-    horizontal: {
+    vertical: {
         direction: "up",
         position: 100
         speed: 12
     },
-    vertical: {
+    horizontal: {
         direction: "right",
         position: 80,
         speed: 64
