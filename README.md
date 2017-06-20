@@ -38,7 +38,7 @@ window.addEventListener('scroll', () => {
 
 The direction property in the object can contain `up`, `down`, `left`, `right` and `unchanged`.
 
-```json
+```javascript
 {
     vertical: {
         direction: "up",
