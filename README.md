@@ -16,7 +16,7 @@ Require the module first.
 
 ```javascript
 const ScrollData = require('window-scroll-data');
-````
+```
 
 Then set your own scrollListener.
 
@@ -24,7 +24,7 @@ Then set your own scrollListener.
 window.addEventListener('scroll', () => {
     console.log(ScrollData());
 });
-````
+```
     
 In case you're only interested in the vertical or horizontal data, just pass in `vertical` or `horizontal` as a parameter.
 
@@ -32,7 +32,7 @@ In case you're only interested in the vertical or horizontal data, just pass in 
 window.addEventListener('scroll', () => {
     console.log(ScrollData('vertical'));
 });
-````
+```
 
 ## Example output
 
