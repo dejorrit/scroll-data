@@ -34,7 +34,8 @@ function getVerticalData() {
 	return {
 		direction: direction,
 		position: previousScrollTop,
-		speed: Math.abs(diff)
+		speed: Math.abs(diff),
+		diff: Math.abs(diff)
 	};
 }
 
@@ -54,6 +55,7 @@ function getHorizontalData() {
 	return {
 		direction: direction,
 		position: previousScrollLeft,
-		speed: Math.abs(diff)
+		speed: Math.abs(diff),
+		diff: Math.abs(diff)
 	};
 }
